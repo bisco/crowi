@@ -145,7 +145,6 @@
 {% endblock %}
 
 {% if pluginName !== undefined %}
-<script src="/js/plugins/plugin_common.js"></script>
 <script src="/js/plugins/{{ pluginName }}"></script>
 {% endif %}
 <script src="/js/app{% if env  == 'production' %}.min{% endif %}.js"></script>
